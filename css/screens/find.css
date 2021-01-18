@@ -1,0 +1,33 @@
+.find-screen {
+  padding: 0px var(--horizontal-space);
+  box-sizing: border-box;
+}
+
+.find-screen__others {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.find-screen__recommended-friends {
+  margin: 40px 0px;
+  border-top: 1px solid rgba(255, 166, 0, 0.4);
+  padding-top: 40px;
+}
+.find-screen__recommended-friends-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--orange);
+}
+.find-screen__recommended-friends-content {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find-screen__recommended-friends-content > span {
+  color: var(--orange);
+  opacity: 0.7;
+}

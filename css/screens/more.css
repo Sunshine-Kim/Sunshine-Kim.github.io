@@ -1,0 +1,26 @@
+.more-screen {
+  padding: 0px var(--horizontal-space);
+  box-sizing: border-box;
+}
+
+.more-screen__others {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.more-screen__suggestions {
+  margin: 40px 0px;
+  border-top: 1px solid rgba(255, 166, 0, 0.4);
+  padding-top: 40px;
+}
+.more-screen__suggestions-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--orange);
+}
+.more-screen__suggestions-content {
+  display: flex;
+  justify-content: space-around;
+}

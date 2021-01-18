@@ -1,0 +1,46 @@
+@keyframes apearing {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--lightorange);
+  padding: 20px 0px;
+  border-top: 1px solid rgba(255, 166, 0, 0.4);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+.nav__link {
+  position: relative;
+  color: orange;
+}
+.nav__notification {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+  animation: apearing 2s ease-in-out infinite;
+}
+.nav__link--current {
+  color: orangered;
+}
